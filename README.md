@@ -1,78 +1,63 @@
-<<<<<<< HEAD
-# Welcome to your Lovable project
+# 💼 Chitraansh Anand | Personal Portfolio
 
-## Project info
+This is my **personal portfolio website**, built using **Next.js** and **Tailwind CSS**, to showcase my skills, projects, achievements, and professional journey as a passionate **Full-Stack Developer** and **Computer Science Engineering student** at PES University.
 
-**URL**: https://lovable.dev/projects/1873ce11-3106-4fa0-b1ae-a3a0d7b141ec
+---
 
-## How can I edit this code?
+## 👨‍💻 About Me
 
-There are several ways of editing your application.
+I am an enthusiastic **third-year Computer Science Engineering student** passionate about **coding**, **problem-solving**, and building impactful projects. I enjoy working in collaborative environments where I can both learn and contribute.
 
-**Use Lovable**
+Currently:
+- 🎓 Studying B.Tech CSE at **PES University** (2023–2027)  
+- 💼 **Technical Domain Head** at HoPES – PES University  
+- 🛠 Experienced in **frontend and full-stack development** through internships and leadership roles  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1873ce11-3106-4fa0-b1ae-a3a0d7b141ec) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,tailwindcss,js,ts,nodejs,express,html,css,python,java,postgresql,mysql,git" />
+</p>
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📜 Experience
 
-Follow these steps:
+**💻 HoPES – PES University (Feb 2024 – Present)**  
+*Technical Domain Head & Full Stack Developer*  
+- Leading the technical team and developing full-stack solutions for university projects.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**💻 HoPES – PES University (Feb 2024 – Mar 2025)**  
+*Full Stack Developer*  
+- Worked on multiple projects in the technical domain.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**💼 [24]7.ai – Student Intern (Jun 2024 – Aug 2024)**  
+- Worked with the Target team (AdTech) focusing on **Spotify Advertisement technologies**.
 
-# Step 3: Install the necessary dependencies.
-npm i
+**💼 Fluttr – Front End Developer (Dec 2021 – Jul 2023)**  
+- Built and tested responsive websites in a part-time role.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🏆 Achievements
+
+- 🥇 **1st Place** – Qriosity Quiz Event, Magnachrista (Christ Junior College, 2022)  
+- 🥉 **3rd Place** – Website Development, TechSpirit (Delhi Public School, 2022)  
+- 🏅 **Distinction Award Certificate** – PES University, April 2024  
+
+---
+
+## 🚀 Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/chitraansh13/chitraansh-portfolio.git
+cd chitraansh-portfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1873ce11-3106-4fa0-b1ae-a3a0d7b141ec) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-=======
-# chitraansh-portfolio
-Personal portfolio website showcasing my skills, experience, and achievements.
->>>>>>> 6ba80c8ae28d2416764acae2301c0d2b591a43f9
