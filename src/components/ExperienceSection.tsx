@@ -5,7 +5,7 @@ const ExperienceSection = () => {
     {
       company: "HoPES – PES University",
       position: "Technical Domain Head",
-      period: "Feb 2024 – Present",
+      period: "March 2025 – Present",
       location: "PES University",
       description: "Full Stack developer and team lead in the Technical Domain.",
       type: "Leadership"
@@ -17,6 +17,14 @@ const ExperienceSection = () => {
       location: "AdTech Division",
       description: "Worked with the Target team (AdTech offering). Learned technologies related to Spotify Advertisements.",
       type: "Internship"
+    },
+    {
+      company: "HoPES – PES University",
+      position: "Full-Stack Developer",
+      period: "Feb 2024 – Present",
+      location: "PES University",
+      description: "Developed and maintained web applications in the Technical Domain.",
+      type: "Developer"
     },
     {
       company: "Fluttr",

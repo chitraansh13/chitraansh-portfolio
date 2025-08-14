@@ -28,7 +28,7 @@ const ContactSection = () => {
       icon: Github,
       label: "GitHub",
       value: "View Projects",
-      link: "https://github.com/chitraansh13",
+      link: "https://github.com/chitraansh13?tab=repositories",
       color: "accent-teal"
     }
   ];
@@ -92,7 +92,7 @@ const ContactSection = () => {
       {/* Footer */}
       <div className="mt-20 pt-8 border-t border-border text-center">
         <p className="text-text-muted">
-          © 2024 Chitraansh Anand. Built with passion and code.
+          © 2024-25 Chitraansh Anand. Built with passion and code.
         </p>
       </div>
     </section>

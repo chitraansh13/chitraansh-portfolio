@@ -17,13 +17,13 @@ const SkillsSection = () => {
     {
       icon: Database,
       title: "Databases",
-      skills: ["MySQL", "PostgreSQL"],
+      skills: ["MySQL", "PostgreSQL", "MonogDB"],
       color: "accent-purple"
     },
     {
       icon: Wrench,
       title: "Software & Tools",
-      skills: ["Git", "Python IDLE", "Visual Studio Code"],
+      skills: ["Git", "Python IDLE", "Visual Studio Code", "Figma", "Postman", "Cursor", "Notion"],
       color: "accent-teal"
     }
   ];

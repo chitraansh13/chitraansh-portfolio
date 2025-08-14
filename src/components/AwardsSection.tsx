@@ -9,7 +9,15 @@ const AwardsSection = () => {
       description: "Academic excellence recognition",
       icon: Award,
       color: "accent-purple"
-    },
+    },   
+    {
+      title: "Distinction Award Certificate",
+      organization: "PES University",
+      date: "Feb 2025",
+      description: "Academic excellence recognition",
+      icon: Award,
+      color: "accent-purple"
+    },  
     {
       title: "1st place – Qriosity Quiz Event",
       organization: "Magnachrista, Christ Junior College",
@@ -35,13 +43,12 @@ const AwardsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             <span className="text-text-primary">Awards & </span>
             <span className="bg-gradient-primary bg-clip-text text-transparent">Achievements</span>
-          </h2>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          </h2>      
+          <div className="flex flex-wrap justify-center gap-x-16 gap-y-12">
             {awards.map((award, index) => (
               <div
                 key={award.title}
-                className="bg-surface-primary rounded-2xl p-6 shadow-soft hover:shadow-glow transition-all duration-300 group"
+                className="bg-surface-primary rounded-2xl p-6 shadow-soft hover:shadow-glow transition-all duration-300 group w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex items-center mb-4">
@@ -49,19 +56,19 @@ const AwardsSection = () => {
                     <award.icon className="h-6 w-6 text-white" />
                   </div>
                 </div>
-                
+
                 <h3 className="text-lg font-bold text-text-primary mb-3 group-hover:text-accent-purple transition-colors duration-300">
                   {award.title}
                 </h3>
-                
+
                 <p className="text-accent-teal font-medium mb-2">
                   {award.organization}
                 </p>
-                
+
                 <p className="text-text-muted text-sm mb-3">
                   {award.date}
                 </p>
-                
+
                 <p className="text-text-secondary text-sm">
                   {award.description}
                 </p>
