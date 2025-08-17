@@ -13,7 +13,7 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL"],
     date: "2024",
     github: "https://github.com/chitraansh13/easy-db",
-    image: "/public/projects/easydb.png",
+    image: "/projects/easydb.png",
     featured: true
   },
   
@@ -24,7 +24,7 @@ const projects = [
     description:"KinderChat is a safe and fun chat application designed specifically for kids. The app allows children to communicate in a secure environment where every message is scanned by an advanced machine learning model to detect threats, negative comments, and inappropriate content. It was made for a hackathon.",
     date: "2023",
     github: "https://github.com/notblankz/KinderChat",
-    image: "/public/projects/KinderChatChat.png",
+    image: "/projects/KinderChatChat.png",
     featured: true
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
     date: "2024",
     github: "https://github.com/chitraansh13/dumble",
-    image: "/public/projects/dumble.png"
+    image: "/projects/dumble.png"
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const projects = [
     technologies: ["Python", "Django", "React.js", "D3.js", "Redis"],
     date: "2023",
     github: "https://github.com/chitraansh13/SimonGame",
-    image: "/public/projects/simongame.png",
+    image: "/projects/simongame.png",
     live:"https://simon-game-mocha-alpha.vercel.app/"
   }
 ];
