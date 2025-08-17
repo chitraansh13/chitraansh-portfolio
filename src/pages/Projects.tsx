@@ -9,7 +9,7 @@ const projects = [
   {
     id: 1,
     title: "EasyDB",
-    description: "It is a simple visual query builder for PostgreSQL databases, allowing users to create, read, update, and delete data without writing SQL queries. It also provides a SQL Command which you can manually input. It was made for a hackathon.",
+    description: "It is a simple visual query builder for PostgreSQL databases, allowing users to create, read, update, and delete data without writing SQL queries. It also provides an SQL Command that you can manually input. It was made for a hackathon.",
     technologies: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL"],
     date: "2024",
     github: "https://github.com/chitraansh13/easy-db",
@@ -19,7 +19,7 @@ const projects = [
   
   {
     id: 2,
-    title: "Kinder",
+    title: "KinderChat",
     technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "Python", "Flask", "Webpack", "PostgreSQL", "Figma"],
     description:"KinderChat is a safe and fun chat application designed specifically for kids. The app allows children to communicate in a secure environment where every message is scanned by an advanced machine learning model to detect threats, negative comments, and inappropriate content. It was made for a hackathon.",
     date: "2023",
@@ -30,7 +30,7 @@ const projects = [
   {
     id: 3,
     title: "Dumble",
-    description: "This project was done for our Colleges's WebDev Course mini project. It is a platform where you find fellow fitness enthusiasts, trainers, and nutritionists. It includes features like user profiles, workout plans and nutrition tracking.",
+    description: "This project was done for our college's WebDev Course mini project. It is a platform where you find fellow fitness enthusiasts, trainers, and nutritionists. It includes features like user profiles, workout plans, and nutrition tracking.",
     technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
     date: "2024",
     github: "https://github.com/chitraansh13/dumble",
