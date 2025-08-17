@@ -5,9 +5,17 @@ const ExperienceSection = () => {
     {
       company: "HoPES – PES University",
       position: "Technical Domain Head",
-      period: "Feb 2024 – Present",
+      period: "March 2025 – Present",
       location: "PES University",
-      description: "Full Stack developer and team lead in the Technical Domain.",
+      description: "Leading a team of five developers to build scalable full-stack web applications for a 2,000+ student audience.",
+      type: "Leadership"
+    },
+    {
+      company: "HoPES – PES University",
+      position: "Technical Domain Head",
+      period: "Feb 2024 – March2025",
+      location: "PES University",
+      description: "Full Stack developer",
       type: "Leadership"
     },
     {

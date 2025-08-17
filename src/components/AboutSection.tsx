@@ -10,17 +10,14 @@ const AboutSection = () => {
           
           <div className="bg-surface-primary rounded-2xl p-8 md:p-12 shadow-soft">
             <p className="text-lg text-text-secondary leading-relaxed mb-8">
-              I am an enthusiastic third-year Computer Science Engineering student passionate about 
-              coding and problem-solving. My journey in technology has been driven by curiosity and 
-              a desire to create meaningful solutions that make a difference.
+              A passionate third-year Computer Science Engineering student with hands-on
+              experience in software development and an internship in AdTech industry. I excel at
+              building efficient, scalable solutions and thriving in fast-paced, collaborative
+              environments. My goal is to continually explore innovave technologies, apply my
+              knowledge to real-world projects, and enhance my technical and leadership capabilies.
             </p>
-            
-            <p className="text-lg text-text-secondary leading-relaxed mb-8">
-              Through my academic pursuits and professional experiences, I've had the opportunity 
-              to work with diverse teams and cutting-edge technologies. I aim to apply my knowledge 
-              to real-world projects, continuously develop my technical skills, and contribute to 
-              dynamic team environments.
-            </p>
+            <br />
+           
             
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -51,6 +48,10 @@ const AboutSection = () => {
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-accent-purple rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     Cricket & Sports Analytics
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-accent-purple rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    Film & Series Enthusiast
                   </li>
                 </ul>
               </div>

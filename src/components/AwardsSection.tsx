@@ -11,6 +11,14 @@ const AwardsSection = () => {
       color: "accent-purple"
     },
     {
+      title: "Distinction Award Certificate",
+      organization: "PES University",
+      date: "Jan 25",
+      description: "Academic excellence recognition",
+      icon: Award,
+      color: "accent-purple"
+    },
+    {
       title: "1st place – Qriosity Quiz Event",
       organization: "Magnachrista, Christ Junior College",
       date: "2022",
@@ -37,7 +45,7 @@ const AwardsSection = () => {
             <span className="bg-gradient-primary bg-clip-text text-transparent">Achievements</span>
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {awards.map((award, index) => (
               <div
                 key={award.title}

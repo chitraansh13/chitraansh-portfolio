@@ -5,25 +5,25 @@ const SkillsSection = () => {
     {
       icon: Code,
       title: "Programming Languages",
-      skills: ["Python", "C", "JavaScript"],
+      skills: ["JavaScript", "Python", "C", "HTML", "CS"],
       color: "accent-purple"
     },
     {
       icon: Globe,
       title: "Technologies",
-      skills: ["HTML", "CSS", "Node.js", "Express.js", "Next.js", "Tailwind CSS", "React.js"],
+      skills: ["Node.js", "Express.js", "Next.js", "Tailwind CSS", "React.js"],
       color: "accent-teal"
     },
     {
       icon: Database,
       title: "Databases",
-      skills: ["MySQL", "PostgreSQL"],
+      skills: ["MySQL", "PostgreSQL","MongoDB"],
       color: "accent-purple"
     },
     {
       icon: Wrench,
       title: "Software & Tools",
-      skills: ["Git", "Python IDLE", "Visual Studio Code"],
+      skills: ["Git", "Python IDLE", "Visual Studio Code","Figma"],
       color: "accent-teal"
     }
   ];

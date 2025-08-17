@@ -5,45 +5,46 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
 const projects = [
+  
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-    technologies: ["React.js", "Node.js", "MongoDB", "Express.js", "Stripe API"],
+    title: "EasyDB",
+    description: "It is a simple visual query builder for PostgreSQL databases, allowing users to create, read, update, and delete data without writing SQL queries. It also provides a SQL Command which you can manually input. It was made for a hackathon.",
+    technologies: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL"],
     date: "2024",
-    github: "https://github.com/chitraansh13/ecommerce-platform",
-    live: "https://ecommerce-demo.vercel.app",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop",
+    github: "https://github.com/chitraansh13/easy-db",
+    image: "/public/projects/easydb.png",
+    featured: true
+  },
+  
+  {
+    id: 2,
+    title: "Kinder",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "Python", "Flask", "Webpack", "PostgreSQL", "Figma"],
+    description:"KinderChat is a safe and fun chat application designed specifically for kids. The app allows children to communicate in a secure environment where every message is scanned by an advanced machine learning model to detect threats, negative comments, and inappropriate content. It was made for a hackathon.",
+    date: "2023",
+    github: "https://github.com/notblankz/KinderChat",
+    image: "/public/projects/KinderChatChat.png",
     featured: true
   },
   {
-    id: 2,
-    title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Socket.io"],
-    date: "2024",
-    github: "https://github.com/chitraansh13/task-manager",
-    live: "https://task-manager-demo.vercel.app",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop"
-  },
-  {
     id: 3,
-    title: "Weather Dashboard",
-    description: "Real-time weather dashboard with location-based forecasts, interactive maps, and weather alerts using OpenWeather API.",
-    technologies: ["React.js", "Tailwind CSS", "OpenWeather API", "Chart.js"],
-    date: "2023",
-    github: "https://github.com/chitraansh13/weather-dashboard",
-    live: "https://weather-dashboard-demo.vercel.app",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=300&fit=crop"
+    title: "Dumble",
+    description: "This project was done for our Colleges's WebDev Course mini project. It is a platform where you find fellow fitness enthusiasts, trainers, and nutritionists. It includes features like user profiles, workout plans and nutrition tracking.",
+    technologies: ["React.js", "Node.js", "MongoDB", "Express.js"],
+    date: "2024",
+    github: "https://github.com/chitraansh13/dumble",
+    image: "/public/projects/dumble.png"
   },
   {
     id: 4,
-    title: "Social Media Analytics",
-    description: "Analytics dashboard for social media metrics with data visualization, trend analysis, and automated reporting features.",
+    title: "Simon Game",
+    description: "Simple Simon Game built using HTML, CSS, and JavaScript. The game challenges players to repeat a sequence of colors and sounds, testing their memory and reflexes. It was made while learning JavaScript from a Udemy Course by Angela Yu.",
     technologies: ["Python", "Django", "React.js", "D3.js", "Redis"],
     date: "2023",
-    github: "https://github.com/chitraansh13/social-analytics",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=300&fit=crop"
+    github: "https://github.com/chitraansh13/SimonGame",
+    image: "/public/projects/simongame.png",
+    live:"https://simon-game-mocha-alpha.vercel.app/"
   }
 ];
 
